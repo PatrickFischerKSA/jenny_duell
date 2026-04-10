@@ -283,6 +283,88 @@ window.JENNY_DUELL_DATA = {
         "Das Duell erscheint archaisch, weil der Konflikt nicht durch Recht oder Vermittlung, sondern durch private Gewalt und Ehrlogik geregelt wird. Die Forderung nach Genugtuung reagiert auf eine öffentliche, antisemitisch aufgeladene Beleidigung. Der alte Graf stützt diese Logik noch, indem er Vermittlung ablehnt und selbst Sekundant wird. Dadurch wird nicht Gerechtigkeit hergestellt, sondern eine ritualisierte Form von Selbsthilfe vollzogen. Eduards frühere Unterscheidung zwischen bloßer Duellcourage und moralischem Mut bildet die Gegenfolie: Wahre Größe läge im Einsatz für Rechte und gegen Vorurteile. Das Duell endet dagegen in Tod und Zerstörung und entlarvt den Ehrbegriff als menschenfeindliche soziale Fessel.",
       teacherPrompt:
         "Die Transferleistung soll aus mehreren Textstellen synthetisieren und den Schritt von der Szene zur historischen Einordnung leisten."
+    },
+    {
+      id: "q7",
+      passageId: "p2",
+      title: "Antisemitismus und Standesdenken",
+      type: "open-analysis",
+      challenge: "Freitext",
+      prompt:
+        "Erkläre, wie in der Juwelierszene Antisemitismus und Standesdenken zusammenwirken. Zeige, warum die Beleidigung nicht nur Jenny, sondern auch Walters gesellschaftliche Position trifft.",
+      help:
+        "Arbeite mit den Formulierungen des Barons und zeige, dass persönliche Kränkung, Vorurteil und sozialer Rang hier ineinandergreifen.",
+      placeholder:
+        "In der Juwelierszene wirken Antisemitismus und Standesdenken zusammen, weil ...",
+      minWords: 65,
+      sourceHints: ["judenmädchen", "judenmaedchen", "verhältnisse", "beleidigung", "braut", "unverschämt"],
+      structureExpectations: {
+        mandatory: ["thesis", "evidence"],
+        targetHits: 4
+      },
+      rubric: [
+        {
+          concept: "Jenny wird antisemitisch markiert und herabgesetzt",
+          keywords: ["antisemitisch", "judenmädchen", "jüdin", "herabgesetzt", "abwertung", "vorurteil"]
+        },
+        {
+          concept: "die Verbindung gilt als sozial oder ständisch unangemessen",
+          keywords: ["stand", "standesdenken", "verhältnisse", "rang", "adel", "unangemessen", "nicht passend"]
+        },
+        {
+          concept: "Walter wird mit dieser Wahl selbst in seiner Ehre getroffen",
+          keywords: ["walter", "seine ehre", "standesehre", "gesellschaftliche position", "bloßgestellt", "selbst getroffen"]
+        },
+        {
+          concept: "die Szene zeigt, dass der Konflikt gesellschaftlich und nicht bloß privat ist",
+          keywords: ["nicht nur privat", "gesellschaftlich", "soziale ordnung", "vorurteile", "gesellschaft", "oeffentlich", "öffentlich"]
+        }
+      ],
+      modelAnswer:
+        "In der Juwelierszene wirken Antisemitismus und Standesdenken zusammen, weil Jenny nicht einfach als Person beleidigt wird, sondern ausdrücklich als „Judenmädchen“ markiert und damit abgewertet wird. Zugleich macht der Baron klar, dass Walters „Verhältnisse“ für eine solche Heirat zu gut seien. Die Verbindung erscheint ihm also als Verstoß gegen eine ständische Ordnung. Dadurch wird nicht nur Jenny herabgesetzt, sondern auch Walter in seiner gesellschaftlichen Stellung getroffen. Die Szene zeigt deshalb, dass der Konflikt von Anfang an sozial und politisch aufgeladen ist und nicht bloß aus privater Eifersucht oder Kränkung entsteht.",
+      teacherPrompt:
+        "Hier sollen die Lernenden präzise zeigen, dass antisemitische Abwertung und ständische Exklusivität dieselbe Beleidigung gemeinsam tragen."
+    },
+    {
+      id: "q8",
+      passageId: "p4",
+      title: "Ehrbegriff entlarven",
+      type: "open-analysis",
+      challenge: "Freitext",
+      prompt:
+        "Warum entlarvt Lewald den Ehrbegriff gerade über die Folgen des Duells? Zeige, wie Tod, Sprache der Zeitung und Eduards Deutung zusammenwirken.",
+      help:
+        "Achte darauf, dass der Roman das Duell nicht als Heldenszene ausmalt, sondern über seine Wirkungen kritisiert.",
+      placeholder:
+        "Lewald entlarvt den Ehrbegriff über die Folgen des Duells, weil ...",
+      minWords: 75,
+      sourceHints: ["schuß-duell", "schuss-duell", "vorurteile", "opfer", "tod", "zeitung", "braut"],
+      structureExpectations: {
+        mandatory: ["thesis", "evidence"],
+        targetHits: 4
+      },
+      rubric: [
+        {
+          concept: "die Folgen sind Tod und Zerstörung statt Wiederherstellung von Ehre",
+          keywords: ["tod", "zerstörung", "katastrophe", "keine wiederherstellung", "keine loesung", "keine lösung"]
+        },
+        {
+          concept: "die Zeitung verharmlost oder verschleiert den eigentlichen sozialen Kern",
+          keywords: ["zeitung", "familienverhältnisse", "verschleiert", "verharmlost", "kühl", "nüchtern"]
+        },
+        {
+          concept: "Eduard deutet die Toten als Opfer gesellschaftlicher Vorurteile",
+          keywords: ["eduard", "opfer", "altar der vorurteile", "vorurteile", "gesellschaftliche kritik", "antisemitismus"]
+        },
+        {
+          concept: "dadurch wird der Ehrbegriff als menschenfeindlicher sozialer Code sichtbar",
+          keywords: ["ehrbegriff", "ehrcode", "menschenfeindlich", "sozialer code", "archaisch", "entlarvt"]
+        }
+      ],
+      modelAnswer:
+        "Lewald entlarvt den Ehrbegriff über die Folgen des Duells, weil das Ritual gerade keine Ehre wiederherstellt, sondern Walter und Jenny vernichtet. Das Duell selbst wird nicht als glanzvolle Heldenszene ausgestellt, sondern fast nur über seinen tödlichen Ausgang sichtbar. Dazu passt die kühle Sprache der Zeitung, die den Vorgang auf ein „Schuß-Duell“ und auf „Familienverhältnisse“ reduziert und damit den eigentlichen Kern verschleiert. Erst Eduard spricht die Wahrheit aus, wenn er die Toten als Opfer der Vorurteile deutet. So zeigt der Roman, dass hinter dem Wort Ehre kein höherer moralischer Wert steht, sondern ein sozialer Code, der Menschenleben kostet.",
+      teacherPrompt:
+        "Die Aufgabe soll die narrative Strategie sichtbar machen: Lewald kritisiert nicht abstrakt, sondern über Folgen, Sprachwahl und politische Deutung."
     }
   ]
 };
