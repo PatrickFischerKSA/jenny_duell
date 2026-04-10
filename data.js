@@ -55,6 +55,69 @@ window.JENNY_DUELL_DATA = {
         "Am nächsten Tage verkündete die Zeitung: »Gestern fand hier ein Schuß-Duell ... statt, dessen Folgen für den Grafen tödlich waren.« ... Da richtete Eduard sich mächtig empor: »Wir leben«, sagte er, »um eine Zeit zu erblicken, in der keine solche Opfer auf dem Altare der Vorurteile bluten!«",
       source:
         "Fanny Lewald, Jenny, Nachgang des Duells und Grabrede Eduards"
+    },
+    {
+      id: "p5",
+      shortLabel: "5",
+      title: "Historischer Kontext I: Von der Fehde zum Landfrieden",
+      focus:
+        "Um das Duell einzuordnen, hilft ein Blick auf ältere Formen privater Selbsthilfe und auf deren rechtliche Zurückdrängung.",
+      quote:
+        "Fehden waren über lange Zeit Formen privater Selbsthilfe innerhalb derselben Gesellschaft. Seit dem Hoch- und Spätmittelalter versuchten Landfrieden, solche Gewalt zu begrenzen. Der Ewige Landfriede von 1495 verbot die Fehde generell und stärkte mit der Ausweitung gerichtlicher Zuständigkeiten den Übergang zur juristischen Konfliktlösung. Damit wurde private Vergeltung nicht sofort beseitigt, aber grundsätzlich delegitimiert.",
+      source:
+        "Historische Einordnung nach Überblicksdarstellungen zu Fehde, Landfrieden und frühmoderner Gerichtsbarkeit",
+      resources: [
+        {
+          title: "Historisches Lexikon Bayerns: Fehdewesen",
+          url: "https://www.historisches-lexikon-bayerns.de/Lexikon/Fehdewesen",
+          note:
+            "Gut für den Übergang von Eigenmacht und Fehde zur Delegitimierung privater Gewalt."
+        },
+        {
+          title: "bpb: Die Wurzeln des modernen Staates",
+          url: "https://www.bpb.de/themen/nachkriegszeit/grundgesetz-und-parlamentarischer-rat/39181/die-wurzeln-des-modernen-staates-deutsche-verfassungsgeschichte-vor-1848-fuenfzehn-merksaetze/",
+          note:
+            "Knapp zur Entwicklung von Fehdeverbot, Landfrieden und gerichtlicher Konfliktregelung."
+        }
+      ]
+    },
+    {
+      id: "p6",
+      shortLabel: "6",
+      title: "Historischer Kontext II: Das Duell als Restform privater Gewalt",
+      focus:
+        "Das Duell ist moderner als die Fehde, hält aber dieselbe Grundlogik privater Konfliktaustragung künstlich am Leben.",
+      quote:
+        "Das Duell ist ein bewaffneter Zweikampf nach verabredeten Regeln. Es knüpft nicht mehr an die offene Fehde an, sondern an einen kodifizierten Ehrenhandel. Trotzdem unterläuft es das staatliche Gewaltmonopol, weil Konflikte nicht durch Recht, sondern durch ritualisierte Selbsthilfe geregelt werden. Gerade im 18. und 19. Jahrhundert hielt sich diese Praxis besonders in adeligen, militärischen und studentischen Milieus.",
+      source:
+        "Historische Einordnung nach Überblicksdarstellungen zu Duell, Ehrenhandel und Gewaltmonopol",
+      resources: [
+        {
+          title: "Historisches Lexikon der Schweiz: Duell",
+          url: "https://hls-dhs-dss.ch/de/articles/016330/",
+          note:
+            "Zum Duell als geregeltem Zweikampf und als Spannungsfall zum staatlichen Gewaltmonopol."
+        }
+      ]
+    },
+    {
+      id: "p7",
+      shortLabel: "7",
+      title: "Historischer Kontext III: Ehre, Geschlecht und Judenemanzipation",
+      focus:
+        "Im 19. Jahrhundert verschränken sich Ehrcode, Geschlechterordnung und die sozial umkämpfte Gleichstellung der Juden.",
+      quote:
+        "Im 19. Jahrhundert schritt die rechtliche Emanzipation der Juden zwar voran, blieb aber gesellschaftlich umstritten. Zugleich war Ehre ein soziales Gut, das nach außen bestätigt und gegen Kränkung verteidigt werden sollte. Männer galten als Träger aktiver Standes- und Handlungsehre, Frauen wurden häufig zum Objekt dieser Ehrlogik gemacht. Genau in diesem Spannungsfeld wird Jennys Verlobung mit Walter zum gesellschaftlichen Skandal.",
+      source:
+        "Historische Einordnung nach Überblicksdarstellungen zu jüdischer Emanzipation und sozialem Ehrbegriff im 19. Jahrhundert",
+      resources: [
+        {
+          title: "bpb: Jüdische Emanzipation in Deutschland im 18. und 19. Jahrhundert",
+          url: "https://www.bpb.de/themen/zeit-kulturgeschichte/juedischesleben/333300/juedische-emanzipation-in-deutschland-im-18-und-19-jahrhundert/",
+          note:
+            "Zum Spannungsfeld von rechtlicher Gleichstellung und fortdauernder sozialer Ausgrenzung."
+        }
+      ]
     }
   ],
   teacherToolkit: {
@@ -365,6 +428,205 @@ window.JENNY_DUELL_DATA = {
         "Lewald entlarvt den Ehrbegriff über die Folgen des Duells, weil das Ritual gerade keine Ehre wiederherstellt, sondern Walter und Jenny vernichtet. Das Duell selbst wird nicht als glanzvolle Heldenszene ausgestellt, sondern fast nur über seinen tödlichen Ausgang sichtbar. Dazu passt die kühle Sprache der Zeitung, die den Vorgang auf ein „Schuß-Duell“ und auf „Familienverhältnisse“ reduziert und damit den eigentlichen Kern verschleiert. Erst Eduard spricht die Wahrheit aus, wenn er die Toten als Opfer der Vorurteile deutet. So zeigt der Roman, dass hinter dem Wort Ehre kein höherer moralischer Wert steht, sondern ein sozialer Code, der Menschenleben kostet.",
       teacherPrompt:
         "Die Aufgabe soll die narrative Strategie sichtbar machen: Lewald kritisiert nicht abstrakt, sondern über Folgen, Sprachwahl und politische Deutung."
+    },
+    {
+      id: "q9",
+      passageId: "p5",
+      title: "Fehde und Rechtsordnung",
+      type: "short-text",
+      challenge: "Historische Einordnung",
+      prompt:
+        "Warum ist die Fehde für die Vorgeschichte des Duells wichtig?",
+      help:
+        "Verbinde private Selbsthilfe, Gewalt und die spätere Hinwendung zu gerichtlicher Konfliktlösung.",
+      placeholder: "Die Fehde ist wichtig, weil ...",
+      conceptGroups: [
+        {
+          label: "Fehde ist private Selbsthilfe oder Eigenmacht",
+          variants: ["selbsthilfe", "eigenmacht", "private gewalt", "private rache", "private vergeltung"]
+        },
+        {
+          label: "Konflikte werden nicht primär vor Gericht gelöst",
+          variants: ["nicht vor gericht", "nicht juristisch", "ohne gericht", "statt gericht", "statt recht"]
+        },
+        {
+          label: "das Duell bewahrt später eine ähnliche Grundlogik",
+          variants: ["aehnliche logik", "ähnliche logik", "restform", "vorform", "vergleichbar", "privater konflikt"]
+        }
+      ],
+      successThreshold: 2,
+      modelAnswer:
+        "Die Fehde ist für die Vorgeschichte des Duells wichtig, weil sie eine Form privater Selbsthilfe und Gewalt war, bei der Konflikte nicht vor Gericht, sondern durch Eigenmacht ausgetragen wurden. Das Duell bewahrt später in ritualisierter Form noch dieselbe Grundlogik.",
+      teacherPrompt:
+        "Wichtig ist, dass Fehde und Duell nicht gleichgesetzt, aber über die Logik privater Konfliktaustragung verbunden werden."
+    },
+    {
+      id: "q10",
+      passageId: "p5",
+      title: "Vom Fehdewesen zum Gericht",
+      type: "drag-order",
+      challenge: "Historische Struktur",
+      prompt:
+        "Ordne die Entwicklung von privater Gewalt zur juristischen Konfliktlösung.",
+      help: "Ziehe die Entwicklungsschritte in eine sinnvolle Reihenfolge.",
+      items: [
+        { id: "i7", label: "Konflikte werden häufig als Fehde oder Selbsthilfe ausgetragen." },
+        { id: "i8", label: "Landfrieden versuchen private Gewalt zu begrenzen." },
+        { id: "i9", label: "Der Ewige Landfriede von 1495 verbietet die Fehde grundsätzlich." },
+        { id: "i10", label: "Gerichtliche Konfliktlösung gewinnt an Vorrang." },
+        { id: "i11", label: "Das Duell hält dennoch eine Restform privater Ehrgewalt aufrecht." }
+      ],
+      correctOrder: ["i7", "i8", "i9", "i10", "i11"],
+      explanation:
+        "Die historische Linie führt nicht geradlinig zur Friedlichkeit, aber klar weg von privater Fehde und hin zu gerichtlicher Zuständigkeit; das Duell erscheint darin als verspäteter Rest.",
+      modelAnswer:
+        "Die Entwicklung verläuft von Fehde und Selbsthilfe über Landfrieden und Fehdeverbot zur stärkeren Rolle der Gerichte; das Duell bleibt darin eine Restform privater Ehrgewalt.",
+      teacherPrompt:
+        "Die Aufgabe sichert die Grundlinie der historischen Einordnung und verhindert, dass das Duell isoliert von älteren Konfliktformen betrachtet wird."
+    },
+    {
+      id: "q11",
+      passageId: "p6",
+      title: "Warum ist das Duell archaisch?",
+      type: "short-text",
+      challenge: "Begriffsklärung",
+      prompt:
+        "Warum kann das Duell trotz moderner Regeln als archaisch bezeichnet werden?",
+      help:
+        "Achte auf den Unterschied zwischen moderner Form und alter Grundlogik.",
+      placeholder: "Das Duell ist archaisch, obwohl ...",
+      conceptGroups: [
+        {
+          label: "es ist zwar geregelt oder kodifiziert",
+          variants: ["geregelt", "kodifiziert", "regeln", "ritualisiert", "geordnet"]
+        },
+        {
+          label: "es löst Konflikte dennoch durch private Gewalt",
+          variants: ["private gewalt", "selbsthilfe", "nicht gerichtlich", "gewalt", "eigenmacht"]
+        },
+        {
+          label: "es unterläuft das staatliche Gewaltmonopol",
+          variants: ["gewaltmonopol", "staat", "staatliches recht", "statt staat", "unterläuft den staat"]
+        }
+      ],
+      successThreshold: 2,
+      modelAnswer:
+        "Das Duell ist archaisch, obwohl es geregelt und ritualisiert erscheint, weil es Konflikte weiterhin durch private Gewalt statt durch Recht und Gericht löst und damit das staatliche Gewaltmonopol unterläuft.",
+      teacherPrompt:
+        "Die Lernenden sollen Form und Logik unterscheiden: modern wirkt nur das Ritual, nicht die Konfliktlösung."
+    },
+    {
+      id: "q12",
+      passageId: "p6",
+      title: "Duell und Gewaltmonopol",
+      type: "open-analysis",
+      challenge: "Freitext",
+      prompt:
+        "Erkläre, warum das Duell als geregelter Ehrenhandel trotzdem dem modernen Rechtsstaat widerspricht. Beziehe das staatliche Gewaltmonopol ausdrücklich ein.",
+      help:
+        "Zeige, dass Regeln allein eine private Gewalthandlung nicht in rechtliche Konfliktlösung verwandeln.",
+      placeholder:
+        "Das Duell widerspricht dem modernen Rechtsstaat, weil ...",
+      minWords: 70,
+      sourceHints: ["gewaltmonopol", "selbsthilfe", "ehrenhandel", "gericht", "recht", "private gewalt"],
+      structureExpectations: {
+        mandatory: ["thesis", "evidence"],
+        targetHits: 4
+      },
+      rubric: [
+        {
+          concept: "der Staat beansprucht die legitime Gewalt und Konfliktentscheidung",
+          keywords: ["staat", "gewaltmonopol", "gericht", "recht", "legitime gewalt"]
+        },
+        {
+          concept: "das Duell verlagert die Entscheidung zurück auf die Beteiligten",
+          keywords: ["beteiligten", "privat", "selbsthilfe", "eigenmacht", "selbst entscheiden"]
+        },
+        {
+          concept: "die Regelhaftigkeit des Duells macht es nicht rechtmäßig",
+          keywords: ["geregelt", "regeln", "ritualisiert", "nicht rechtmaessig", "nicht rechtmäßig", "bleibt gewalt"]
+        },
+        {
+          concept: "deshalb erscheint das Duell als Rückfall in ältere Gewaltlogiken",
+          keywords: ["rueckfall", "rückfall", "archaisch", "aeltere gewaltlogik", "ältere gewaltlogik", "restform"]
+        }
+      ],
+      modelAnswer:
+        "Das Duell widerspricht dem modernen Rechtsstaat, weil der Staat im Prinzip die legitime Gewalt und die Entscheidung über Konflikte beansprucht. Beim Ehrenhandel wird diese Entscheidung jedoch wieder in die Hände der Beteiligten gelegt. Zwar ist das Duell geregelt und ritualisiert, aber seine Regeln machen es nicht rechtmäßig, sondern nur formalisierter. Der Konflikt wird weiterhin privat und gewaltsam ausgetragen. Darum erscheint das Duell als Rückfall in ältere Gewaltlogiken, obwohl es äußerlich modern codiert ist.",
+      teacherPrompt:
+        "Die Aufgabe führt vom historischen Überblick zu einem zentralen Begriff der politischen Moderne: Gewaltmonopol."
+    },
+    {
+      id: "q13",
+      passageId: "p7",
+      title: "Ehre und Geschlecht",
+      type: "short-text",
+      challenge: "Gesellschaftskontext",
+      prompt:
+        "Warum ist der Ehrbegriff im 19. Jahrhundert auch ein Geschlechterproblem?",
+      help:
+        "Zeige den Unterschied zwischen männlicher Handlungsehre und weiblicher Stellung im Ehrcode.",
+      placeholder: "Der Ehrbegriff ist auch ein Geschlechterproblem, weil ...",
+      conceptGroups: [
+        {
+          label: "Männer gelten als aktive Träger von Ehre",
+          variants: ["maenner", "männer", "aktive traeger", "handlungsehre", "standesehre", "verteidigen ehre"]
+        },
+        {
+          label: "Frauen werden oft zum Objekt dieser Ehrlogik",
+          variants: ["frauen", "objekt", "zum objekt gemacht", "nicht selbst handelnd", "ueber sie", "über sie"]
+        },
+        {
+          label: "die Duellszene zeigt diese Asymmetrie",
+          variants: ["jenny", "anlass", "wegen ihr", "ihretwegen", "sie wird nicht gefragt", "asymmetrie"]
+        }
+      ],
+      successThreshold: 2,
+      modelAnswer:
+        "Der Ehrbegriff ist auch ein Geschlechterproblem, weil Männer als aktive Träger und Verteidiger von Ehre gelten, während Frauen oft zum Objekt dieser Ehrlogik gemacht werden. Genau das zeigt die Duellszene, in der um Jenny gekämpft wird, ohne dass sie selbst handeln kann.",
+      teacherPrompt:
+        "Hier soll sichtbar werden, dass der Ehrcode nicht neutral ist, sondern geschlechtlich asymmetrisch funktioniert."
+    },
+    {
+      id: "q14",
+      passageId: "p7",
+      title: "Judenemanzipation und Konfliktschärfe",
+      type: "open-analysis",
+      challenge: "Freitext",
+      prompt:
+        "Erkläre, warum die Verlobung von Jenny und Walter im historischen Kontext der Judenemanzipation besonders konfliktträchtig ist.",
+      help:
+        "Verbinde rechtliche Annäherung, soziale Vorurteile und die aristokratische Ehrlogik.",
+      placeholder:
+        "Die Verlobung ist historisch besonders konfliktträchtig, weil ...",
+      minWords: 80,
+      sourceHints: ["emanzipation", "vorurteile", "jüdisch", "adel", "ehre", "gleichstellung", "gesellschaft"],
+      structureExpectations: {
+        mandatory: ["thesis", "evidence"],
+        targetHits: 4
+      },
+      rubric: [
+        {
+          concept: "rechtliche Gleichstellung schreitet voran, bleibt aber unvollständig",
+          keywords: ["gleichstellung", "emanzipation", "rechtlich", "voran", "nicht abgeschlossen", "unvollständig"]
+        },
+        {
+          concept: "soziale Vorurteile gegen Juden bestehen fort",
+          keywords: ["vorurteile", "antisemitismus", "soziale ausgrenzung", "jüdisch", "judenmädchen"]
+        },
+        {
+          concept: "der Adel oder Standesdünkel verschärft die Ablehnung zusätzlich",
+          keywords: ["adel", "stand", "standesdünkel", "rang", "gesellschaftliche ordnung"]
+        },
+        {
+          concept: "die Verlobung wird so zum Brennpunkt eines größeren gesellschaftlichen Konflikts",
+          keywords: ["nicht nur privat", "brennpunkt", "gesellschaftlicher konflikt", "groesserer konflikt", "größerer konflikt", "symbolisch"]
+        }
+      ],
+      modelAnswer:
+        "Die Verlobung von Jenny und Walter ist im Kontext der Judenemanzipation besonders konfliktträchtig, weil sich hier rechtliche Öffnung und soziale Abwehr kreuzen. Zwar schreitet die Gleichstellung der Juden im 19. Jahrhundert voran, doch die gesellschaftlichen Vorurteile bleiben stark. Wenn nun eine jüdische Frau und ein adeliger Mann sich verbinden wollen, wird dieser Gegensatz verschärft: Nicht nur antisemitische Ablehnung, sondern auch Standesdünkel und Ehrlogik greifen ein. Die Beziehung ist deshalb nicht bloß privat, sondern wird zum symbolischen Brennpunkt eines größeren gesellschaftlichen Konflikts.",
+      teacherPrompt:
+        "Die Aufgabe soll den Schritt von der literarischen Szene zur gesellschaftsgeschichtlichen Tiefenstruktur leisten."
     }
   ]
 };

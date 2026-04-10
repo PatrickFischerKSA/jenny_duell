@@ -624,6 +624,28 @@ function renderLessonPanel() {
       <p class="passage-source">${escapeHtml(passage.source)}</p>
       <blockquote class="passage-quote">${escapeHtml(passage.quote)}</blockquote>
     </article>
+    ${
+      Array.isArray(passage.resources) && passage.resources.length
+        ? `
+          <section class="resource-box">
+            <p class="eyebrow">Weiterführende Ressourcen</p>
+            <div class="resource-list">
+              ${passage.resources
+                .map(
+                  (resource) => `
+                    <article class="resource-card">
+                      <h3>${escapeHtml(resource.title)}</h3>
+                      <p>${escapeHtml(resource.note || "")}</p>
+                      <a class="resource-link" href="${escapeHtml(resource.url)}" target="_blank" rel="noreferrer">Quelle öffnen</a>
+                    </article>
+                  `
+                )
+                .join("")}
+            </div>
+          </section>
+        `
+        : ""
+    }
   `;
 }
 
