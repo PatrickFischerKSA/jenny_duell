@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jenny - Das Duell</title>
+    <meta
+      name="description"
+      content="Kompakte Lerneinheit zu Fanny Lewalds Jenny mit Fokus auf das Motiv des Duells, textnahen Auszügen, Sofortfeedback, Synonymerkennung und Lehrerdashboard."
+    />
+    <meta name="theme-color" content="#6f2d20" />
+    <link rel="stylesheet" href="styles.css?v=20260410a" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Fanny Lewald | Jenny</p>
+          <h1>Das Duell</h1>
+          <p class="lead">
+            Diese kurze Lerneinheit konzentriert sich auf ein einziges Motiv:
+            das Duell als archaische Form der Konfliktlösung. Die Szene wird
+            textnah gelesen, historisch eingeordnet und über den problematischen
+            Ehrbegriff erschlossen.
+          </p>
+          <div class="hero-actions">
+            <button class="btn primary" id="start-button" type="button">Mit der Analyse beginnen</button>
+            <button class="btn ghost" id="teacher-toggle" type="button">Lehrer*innenzugang</button>
+          </div>
+        </div>
+
+        <aside class="hero-side">
+          <div class="note-card">
+            <p class="note-label">Leitfrage</p>
+            <p>
+              Warum erscheint das Duell in <em>Jenny</em> nicht als ehrenhafte
+              Lösung, sondern als Rückfall in eine vorjuristische Gewaltlogik?
+            </p>
+          </div>
+          <div class="note-card">
+            <p class="note-label">Arbeitsweise</p>
+            <p>
+              Die Fragen reagieren sofort auf Schlüsselbegriffe und
+              Sinnvarianten. Kurze Freitexte werden über Synonymerkennung
+              geprüft, die Transferfrage gibt gestuftes Sofortfeedback.
+            </p>
+          </div>
+          <div class="note-card">
+            <p class="note-label">Fokus</p>
+            <p>
+              Beweggründe, Ablauf, Konsequenzen, Ehrbegriff und der Übergang
+              von Fehde und Selbsthilfe zu gerichtlicher Konfliktlösung.
+            </p>
+          </div>
+        </aside>
+      </header>
+
+      <section class="panel teacher-access-panel hidden" id="teacher-access-panel"></section>
+
+      <section class="panel identity-panel">
+        <div>
+          <p class="eyebrow">Schülerprofil</p>
+          <h2>Fortschritt lokal sichern</h2>
+          <p class="section-copy">
+            Jeder Name wird lokal auf diesem Gerät gespeichert. So kann die
+            Lehrperson mehrere Lernstände im Dashboard vergleichen.
+          </p>
+        </div>
+        <form id="student-form" class="student-form">
+          <label for="student-name-input">Schüler*in</label>
+          <div class="student-input-row">
+            <input
+              id="student-name-input"
+              name="student"
+              type="text"
+              autocomplete="off"
+              placeholder="z. B. Mia Schmid"
+            />
+            <button class="btn primary" type="submit">Profil laden</button>
+          </div>
+          <p class="status-text" id="student-status">Noch kein Profil aktiv.</p>
+        </form>
+      </section>
+
+      <section class="dashboard">
+        <div class="stats-grid" id="stats-grid"></div>
+        <section class="panel context-panel">
+          <p class="eyebrow">Historischer Fokus</p>
+          <h2>Vom Fehdewesen zum Rechtsstaat</h2>
+          <ul class="context-list">
+            <li>Die Fehde war eine Form privater Selbsthilfe und Gewaltregelung.</li>
+            <li>Landfrieden und Gerichte drängten solche Gewalt schrittweise zurück.</li>
+            <li>Das Duell hält diese ältere Logik im 19. Jahrhundert künstlich am Leben.</li>
+          </ul>
+        </section>
+      </section>
+
+      <div class="workspace">
+        <aside class="panel rail">
+          <div class="section-head compact">
+            <div>
+              <p class="eyebrow">Arbeitsweg</p>
+              <h2>Vier Textfenster</h2>
+            </div>
+          </div>
+          <div id="passage-nav" class="passage-nav"></div>
+        </aside>
+
+        <main class="focus-column">
+          <section class="panel lesson-panel" id="lesson-panel"></section>
+          <section class="panel question-panel" id="question-panel"></section>
+          <section class="panel teacher-panel hidden" id="teacher-panel"></section>
+          <section class="panel teacher-dashboard hidden" id="teacher-dashboard"></section>
+        </main>
+      </div>
+    </div>
+
+    <script src="data.js?v=20260410a"></script>
+    <script src="app.js?v=20260410a"></script>
+  </body>
+</html>
